@@ -20,6 +20,7 @@ const AdminFollowers = (props)=>{
                         <CardBody style={{backgroundColor:'black'}}>
                             
                             <Button style={{margin:'0 auto'}} href={user.html_url}>{user.login}</Button>
+                            <img style={{width:'100%'}} src={`https://ghchart.rshah.org/${user.login}`} alt={user.login} />
                         </CardBody>
                         </Card>
                     )
